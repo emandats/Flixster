@@ -68,3 +68,8 @@ Overall, the project demo went well. In presenting and seeing my peers present, 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
 Elena- Helped me figuring out some syntax/styling issues I was having... thank you!
+
+<a href="https://www.loom.com/share/0bee52edc9c54d108d84e75d0c075817">
+   <p>Flixster Project</p>
+   <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0bee52edc9c54d108d84e75d0c075817-with-play.gif">
+</a>
