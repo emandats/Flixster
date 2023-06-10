@@ -1,1 +1,80 @@
+body {
+  font-family: Trebuchet MS, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2d2d2d;
+}
 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button#close-search-btn {
+  background-color: #dc3545;
+}
+
+main {
+  padding: 20px;
+}
+
+#movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #333;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.movie-votes::before {
+  content: "\2605"; /* Unicode character for a star symbol */
+  display: inline-block;
+  color: gold; /* Color of the star */
+  font-size: 16px;
+  margin-right: 5px; /* Adjust the spacing between the star and the rating */
+}
+
+.movie-votes {
+  font-size: 14px;
+  color: #fffcfc;
+  margin: 0;
+}
+
+.movie-title {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
